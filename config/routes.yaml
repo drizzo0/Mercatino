@@ -8,15 +8,19 @@ index:
 
 login:
     path: /accedi
-    controller:
+    controller: App\Controller\UserController::login
 
 registrati:
     path: /registrati
-    controller:
+    controller: App\Controller\UserController::register
 
 # Books
 cataloga:
     path: /catalogo/crea
-    controller:
+    controller: App\Controller\BookController::createBook
+
+lista:
+    path: /lista
+    controller: App\Controller\BookController::bookList
 
 #
