@@ -7,5 +7,5 @@
 /var/
 /vendor/
 /.idea/
-/Migrations/
+/src/Migrations/
 ###< symfony/framework-bundle ###
