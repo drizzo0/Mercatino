@@ -14,7 +14,7 @@ registrati:
     path: /registrati
     controller:
 
-##crea nuovo libro
+##create new book
 cataloga:
     path: /catalogo/crea
     controller:
